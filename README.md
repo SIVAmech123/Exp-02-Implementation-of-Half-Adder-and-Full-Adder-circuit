@@ -40,21 +40,13 @@ If the output is 1, then the led glows.
 ## Program:
 ## Half adder:
 
-module halfadder(a,b,sum,carry);
-input a,b;
-output sum,carry;
-xor(sum,a,b);
-and(carry,a,b)
-endmodule
+<img width="172" alt="Screenshot 2023-12-21 180816" src="https://github.com/SIVAmech123/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/151629067/153ac1ec-258a-4d74-8f06-962072abfc95">
+
 
 ## Full adder:
 
-module halfadder(a,b,c,sum,carry);
-input a,b,c;
-output sum,carry;
-xor(sum,a,b,c);
-assign carry=a&b | b&c | a&c
-endmodule
+<img width="170" alt="Screenshot 2023-12-21 180914" src="https://github.com/SIVAmech123/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/151629067/affab72a-aecf-475f-af39-11c4445a6e0b">
+
 
 ## Logic symbol:
 
